@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Dynamic Title will be set by JS -->
+    <title>Project Details | LPK Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Header (Simplified) -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.jpg" alt="LPK Construction Logo">
+                <span>LPK Construction</span>
+            </a>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html"><i class="fas fa-arrow-left"></i> Back to Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Project Details Hero -->
+    <div id="project-hero" class="project-hero section">
+        <div class="container">
+            <h1 id="project-title">Loading Project...</h1>
+            <p id="project-location" class="location-tag"></p>
+        </div>
+    </div>
+
+    <!-- Details Content -->
+    <section class="section project-details-content">
+        <div class="container">
+            <!-- Info Grid -->
+            <div class="details-grid">
+                <div class="info-card">
+                    <h3>Project Overview</h3>
+                    <p id="project-desc">...</p>
+                    <ul id="project-specs" class="specs-list">
+                        <!-- Filled by JS -->
+                    </ul>
+                </div>
+                <!-- Main Featured Image -->
+                <div class="main-image-container">
+                    <img id="main-product-image" src="" alt="Project View">
+                </div>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-section">
+                <h2>Project Gallery</h2>
+                <div id="project-gallery" class="gallery-grid">
+                    <!-- Images filled by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 LPK Construction Coimbatore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
